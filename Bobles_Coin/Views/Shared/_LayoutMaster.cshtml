@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fastkart">
+    <meta name="keywords" content="Fastkart">
+    <meta name="author" content="Fastkart">
+    <link rel="icon" href="../assets/images/favicon/7.png" type="image/x-icon">
+    <title>On-demand last-mile delivery</title>
+    @RenderSection("Styles", required: false)
+    <partial name="_P_Styles"/>
+</head>
+
+<body class="theme-color-5">
+
+    <!-- Loader Start -->
+    <div class="fullpage-loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Loader End -->
+    <!-- Header Start -->
+    <header class="">
+
+        <div class="top-nav top-header sticky-header ticket_header">
+            <div class="container-fluid-lg">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="navbar-top">
+                            <button class="navbar-toggler d-xl-none d-inline navbar-menu-button" type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#primaryMenu">
+                                <span class="navbar-toggler-icon">
+                                    <i class="fa-solid fa-bars"></i>
+                                </span>
+                            </button>
+                            <a href="index.html" class="web-logo nav-logo">
+                                <img src="../assets/images/logo/6.png" class="img-fluid blur-up lazyload" alt="">
+                            </a>
+
+
+                            <div class="rightside-box">
+                                <div class="search-full">
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i data-feather="search" class="font-light"></i>
+                                        </span>
+                                        <input type="text" class="form-control search-type" placeholder="Search here..">
+                                        <span class="input-group-text close-search">
+                                            <i data-feather="x" class="font-light"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <ul class="right-side-menu">
+                                    <li class="right-side">
+                                        <div class="delivery-login-box">
+                                            <div class="delivery-icon">
+                                                <div class="search-box">
+                                                    <a>Listening</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="right-side">
+                                        <a href="wishlist.html" class="btn p-0 position-relative header-wishlist">
+                                           FOLLOW
+                                        </a>
+                                    </li>
+                                    <li class="right-side">
+                                        <div class="onhover-dropdown header-badge">
+                                            <a class="btn p-0 position-relative header-wishlist">
+                                               API
+                                            </a>
+
+                                        </div>
+                                    </li>
+                                  @*  <li class="right-side onhover-dropdown">
+                                        <div class="delivery-login-box">
+                                            <div class="delivery-icon">
+                                                <i data-feather="user"></i>
+                                            </div>
+                                            <div class="delivery-detail">
+                                                <h6>Hello,</h6>
+                                                <h5>My Account</h5>
+                                            </div>
+                                        </div>
+                                    </li>*@
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+    @RenderBody()
+    <div class="theme-option">
+        <div class="back-to-top">
+            <a id="back-to-top" href="#">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </div>
+    <div class="bg-overlay"></div>
+     
+        <partial name="_P_Scripts" />
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

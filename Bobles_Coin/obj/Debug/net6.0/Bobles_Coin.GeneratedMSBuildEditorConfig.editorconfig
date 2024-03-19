@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Bobles_Coin
+build_property.RootNamespace = Bobles_Coin
+build_property.ProjectDir = F:\dotnet.core\COIN\Bobles_Coin\Bobles_Coin\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = F:\dotnet.core\COIN\Bobles_Coin\Bobles_Coin
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/dotnet.core/COIN/Bobles_Coin/Bobles_Coin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/COIN/Bobles_Coin/Bobles_Coin/Views/Shared/_P_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QX1NjcmlwdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/COIN/Bobles_Coin/Bobles_Coin/Views/Shared/_P_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QX1N0eWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/COIN/Bobles_Coin/Bobles_Coin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/COIN/Bobles_Coin/Bobles_Coin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/COIN/Bobles_Coin/Bobles_Coin/Views/Shared/_LayoutMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kd1w4602j0

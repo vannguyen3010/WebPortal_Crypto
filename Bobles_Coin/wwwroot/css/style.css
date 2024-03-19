@@ -1,0 +1,100 @@
+﻿.orange[data-v-78921d12] {
+    margin-top: 15px;
+}
+
+.orange .progress[data-v-78921d12] {
+    border: 2px;
+    border-style: solid;
+    border-color: #f07c3e;
+    box-shadow: 0 0 20px #7e320a;
+}
+
+.progress {
+    transition: all 1s ease;
+}
+
+.progress {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.box__ball .progress[data-v-78921d12] {
+    width: 100px, calc(33.33333vw - 60px), 250px) !important;
+    height: 100px, calc(33.33333vw - 60px), 250px) !important;
+}
+
+.progress {
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+}
+
+.green .progress .inner[data-v-78921d12], .orange .progress .inner[data-v-78921d12], .red .progress .inner[data-v-78921d12] {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    border: var(--ball-border) solid #1a1a1a;
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+
+.box__ball .progress .inner[data-v-78921d12] {
+    width: calc( 100px - 2px *2), calc( calc(33.33333vw - 60px) - 2px *2), calc( 250px - 2px *2) !important;
+    height: calc( 100px - 2px *2), calc( calc(33.33333vw - 60px) - 2px *2), calc( 250px - 2px *2) !important;
+}
+
+.green .progress .inner .percent[data-v-78921d12], .orange .progress .inner .percent[data-v-78921d12], .red .progress .inner .percent[data-v-78921d12] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    text-align: center;
+    line-height: 240px;
+    font-size: 92.3076923076923px;
+    transition: all 1s ease;
+}
+
+.box__ball .progress .inner .percent[data-v-78921d12] {
+    line-height: clamp(calc( 100px - 2px *2), calc(33.33333vw - 60px) - 2px *2, calc(250px - 2px *2) !important;
+    font-size: clamp(calc( 100px - 2px *2)* 0.35), calc(calc( calc(33.33333vw - 60px) - 2px *2)* 0.35), 92px) !important;
+}
+
+.percent[data-v-78921d12] {
+    background-color: #1a1a1a;
+}
+
+.orange .progress .inner .percent[data-v-78921d12] {
+    color: #a8430d;
+    text-shadow: 0 0 10px #7e320a;
+}
+
+.green .progress .inner .percent[data-v-78921d12], .orange .progress .inner .percent[data-v-78921d12], .red .progress .inner .percent[data-v-78921d12] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    text-align: center;
+    line-height: 240px;
+    font-size: 92.3076923076923px;
+    transition: all 1s ease;
+}
+.coin_slide_item {
+    justify-content: space-between;
+    display: flex;
+    text-wrap: nowrap;
+}
+.green .progress[data-v-78921d12] {
+    border: var(--ball-border);
+    border-style: solid;
+    border-color: #53fc53;
+    box-shadow: 0 0 20px #029502;
+}

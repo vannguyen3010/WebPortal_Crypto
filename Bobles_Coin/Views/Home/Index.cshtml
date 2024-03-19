@@ -1,0 +1,75 @@
+﻿@model M_cryptocurrency
+@section Styles{
+    <link href="~/css/style.css" rel="stylesheet" asp-append-version="true" />
+}
+@{
+    var data = ViewBag.CryptoCoin as List<M_cryptocurrency>;
+   
+}
+
+
+<section class="product-section product-section-3">
+    <div class="container-fluid-lg">
+        <div class="title">
+            <h2>Simple Investment Choice</h2>
+        </div>
+        <div class="row g-sm-4 g-3 section-b-space">
+            <div class="col-xxl-12 ratio_110">
+                <div class="img-slider coin_slide_item">
+                    @if(data != null && data.Any())
+                    {
+                        foreach (var item in data)
+                        {
+
+                            <div data-v-78921d12=""
+                                 class="d-flex flex-column align-items-center justify-content-center col-4 my-2 my-md-4">
+                                <div data-v-78921d12="" class="d-flex align-items-center">
+                                    <!---->
+                                    <h1 data-v-78921d12="" class="mb-0">@item.name</h1>
+                                </div>
+                                <div data-v-78921d12="" class="box__ball orange">
+                                    <a data-v-78921d12=""
+                                       href="https://www.gate.io/trade/SHIB_USDT?ref=4655473">
+                                        <div data-v-78921d12="" class="progress">
+                                            <div data-v-78921d12="" class="inner">
+                                                <div data-v-78921d12=""
+                                                     class="percent d-flex justify-content-center align-items-center">
+                                                    <span data-v-78921d12="">85%</span>
+                                                </div>
+                                                <div data-v-78921d12="" class="water" style="top: 41%"></div>
+                                                <div data-v-78921d12="" class="glare"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div data-v-78921d12="" class="mt-4 d-flex justify-content-center">
+                                        <div data-v-78921d12=""
+                                             class="d-flex justify-content-between btn-vote">
+                                            <button data-v-78921d12="" class="btn btnUp btn-text">
+                                                UP
+                                            </button><button data-v-78921d12=""
+                                                             class="btn btnDown btn-text ms-2 ms-md-4">
+                                                DOWN
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <div data-v-78921d12=""
+                                         class="mt-2 mt-md-3 d-flex justify-content-center">
+                                        <button data-v-78921d12=""
+                                                class="btn btn-primary btn-text w-100 btn-coin-info">
+                                            INFO
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+                       
+                    }
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
